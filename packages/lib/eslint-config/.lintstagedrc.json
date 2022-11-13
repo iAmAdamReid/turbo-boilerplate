@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/lintstagedrc.schema.json",
+  "**/*.{js,cjs,mjs,jsx,ts,tsx,graphql,yml,yaml}": [
+    "eslint --fix",
+    "prettier --write --ignore-unknown"
+  ],
+  "package.json": ["prettier-package-json --write", "git add"]
+}

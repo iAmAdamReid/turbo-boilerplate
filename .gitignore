@@ -102,3 +102,22 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Turborepo
+.turbo
+
+# Yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# VSCode Workspace
+*.code-workspace
+
+# .DS_STORE
+**/.DS_Store
+

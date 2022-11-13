@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json.schemastore.org/lintstagedrc.schema.json",
+  "**/*": ["prettier --write --ignore-unknown"],
+  "package.json": ["prettier-package-json --write", "git add"]
+}
